@@ -8,7 +8,7 @@ public class Task5 {
             System.out.println("Enter the number:");
             int number = scanner.nextInt(); /*თუ აქ გადავცემთ 5-ს ან მეტს, დაარტყამს ArrayIndexOutOfBoundsException,
             ხოლო თუ გადავცემთ 0-ს, დაარტყამს ArithmeticException*/
-            int fixedNumber = 70;
+            int fixedNumber = 80;
 
             System.out.println("Array element: " + array[number]);
             int division = fixedNumber / number; /*fixed number-ად ასევე შესაძლებელია ერეიდან აღებული ელემენტის გამოყენება:
